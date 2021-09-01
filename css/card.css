@@ -1,0 +1,48 @@
+body {
+    background: radial-gradient(rgba(172, 176, 182, 0.947), rgb(23, 113, 140));
+}
+
+fieldset {
+    border-radius: 100px;
+    width: 300px;
+}
+
+.more {
+    display: inline-block;
+    position: relative;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu a {
+    display: block;
+}
+
+.more:hover .menu {
+    display: inline-flex;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    width: 300px;
+    border-radius: 50px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
