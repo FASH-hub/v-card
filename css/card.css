@@ -2,6 +2,12 @@ body {
     background: radial-gradient(rgba(172, 176, 182, 0.947), rgb(23, 113, 140));
 }
 
+h1 {
+    font-family: 'Courgette';
+    font-weight: bold;
+    font-size: 120%;
+}
+
 .main {
     display: flex;
     flex-wrap: wrap;
@@ -9,11 +15,16 @@ body {
     justify-content: space-around;
 }
 
+.first {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .idintro {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 20px;
     background-color: grey;
     padding: 3%;
 }
@@ -22,25 +33,12 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .texteIntro {
     margin-top: 20%;
-
-}
-
-.menu {
-    display: none;
-    position: absolute;
-}
-
-.more:hover .menu {
-    display: block;
-}
-
-.more {
-    margin-right: 3%;
-    height: 40px;
+    font-family: 'Courgette';
 }
 
 .picture {
@@ -53,8 +51,10 @@ footer {
     align-items: flex-end;
     justify-content: space-around;
     background-color: beige;
-    border-radius: 10px;
+
     padding: 20px;
+    left: 0;
+    right: 0;
 }
 
 button {
@@ -65,24 +65,16 @@ button {
 
 }
 
+.first img {
+    width: 80px;
+    margin-top: 80%;
+}
+
 img {
     width: 300px;
     border-radius: 80%;
 }
 
-li a {
-    text-decoration: none;
-}
-
 a {
     text-decoration: none;
-}
-
-li {
-    list-style-type: none;
-}
-
-a:hover {
-    color: blue;
-    background-color: beige;
 }
