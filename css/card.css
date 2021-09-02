@@ -80,3 +80,8 @@ a {
 li {
     list-style-type: none;
 }
+
+a:hover {
+    color: blue;
+    background-color: beige;
+}
