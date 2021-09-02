@@ -1,5 +1,7 @@
 body {
     background: radial-gradient(rgba(172, 176, 182, 0.947), rgb(23, 113, 140));
+    margin-top: 0px;
+    padding-top: 0%;
 }
 
 h1 {
@@ -8,7 +10,7 @@ h1 {
     font-size: 130%;
 }
 
-.main {
+main {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -27,6 +29,7 @@ h1 {
     flex-wrap: wrap;
     background-color: grey;
     padding: 3%;
+    padding-bottom: 12%;
 }
 
 .intro {
@@ -51,10 +54,11 @@ footer {
     align-items: flex-end;
     justify-content: space-around;
     background-color: beige;
-
     padding: 20px;
     left: 0;
     right: 0;
+    position: fixed;
+    bottom: 0;
 }
 
 button {
