@@ -4,11 +4,12 @@ body {
     padding-top: 0%;
 }
 
-h1 {
+/* h1 {
     font-family: 'Courgette';
     font-weight: bold;
     font-size: 130%;
-}
+    margin-top: 80%;
+} */
 
 .main {
     display: flex;
@@ -21,6 +22,12 @@ h1 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.first p {
+    margin-top: 90%;
+    font-family: 'Courgette';
+    font-weight: bold;
 }
 
 .idintro {
@@ -39,9 +46,15 @@ h1 {
 
 }
 
-.texteIntro {
+/* .texteIntro {
     margin-top: 20%;
     font-family: 'Courgette';
+} */
+h1 {
+    font-family: 'Courgette';
+    font-weight: bold;
+    font-size: 130%;
+    margin-top: 20%;
 }
 
 .picture {
@@ -62,8 +75,8 @@ footer {
 }
 
 .first img {
-    width: 80px;
-    margin-top: 80%;
+    width: 100px;
+    margin-top: 20%;
 }
 
 img {
